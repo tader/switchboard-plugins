@@ -20,7 +20,7 @@
     {
       "id": "apple-reminders",
       "name": "Apple Reminders",
-      "description": "Local Apple Reminders on macOS. Install on the Mac running Switchboard or its Mac satellite.",
+      "description": "Local Apple Reminders on macOS. Install on the Mac running Switchboard or its Mac peer.",
       "repo": "tader/switchboard-plugin-macos",
       "path": "plugins/apple-reminders",
       "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-macos/main/plugins/apple-reminders/icon.svg"
@@ -164,7 +164,7 @@
     {
       "id": "shell-command",
       "name": "Shell command",
-      "description": "Run a fixed shell command through a connection on a satellite. Install on a satellite and enable Allow shell commands in its local settings.",
+      "description": "Run a fixed shell command through a connection on a peer. Install on a peer and enable Allow shell commands in its local settings.",
       "repo": "tader/switchboard-plugin-shell-command",
       "path": "plugins/shell-command",
       "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-shell-command/main/plugins/shell-command/icon.svg"
@@ -176,14 +176,6 @@
       "repo": "tader/switchboard-plugin-spotify",
       "path": "plugins/spotify",
       "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-spotify/main/plugins/spotify/icon.svg"
-    },
-    {
-      "id": "switchboard",
-      "name": "Switchboard",
-      "description": "Another Switchboard, to use the accounts connected there.",
-      "repo": "tader/switchboard-plugin-switchboard",
-      "path": "plugins/switchboard",
-      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-switchboard/main/plugins/switchboard/icon.svg"
     },
     {
       "id": "todoist",

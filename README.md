@@ -35,7 +35,7 @@ Plugins run inside Switchboard with access to stored credentials. A catalog list
 
 Switchboard bundles MCP, API Keys and OAuth. All other integrations below are installed from Community and maintained separately. Google and Microsoft apps declare their shared provider dependency; installing an app resolves it through this live catalog.
 
-Before upgrading an existing instance, install its used provider plugins and any satellite plugins. Install the shared Google or Microsoft plugin explicitly too when migrating their apps: an older Switchboard can reuse its compatible bundled helper instead of downloading it. IDs, saved credentials, authentication methods, settings and plugin data paths are preserved. Install GitHub first if you need saved GitHub connections for private repository access; public installation works without a connection.
+Before upgrading an existing instance, install its used provider plugins and any peer plugins. Install the shared Google or Microsoft plugin explicitly too when migrating their apps: an older Switchboard can reuse its compatible bundled helper instead of downloading it. IDs, saved credentials, authentication methods, settings and plugin data paths are preserved. Install GitHub first if you need saved GitHub connections for private repository access; public installation works without a connection.
 
 | Plugin | Repository | Plugin path |
 | --- | --- | --- |
@@ -61,5 +61,6 @@ Before upgrading an existing instance, install its used provider plugins and any
 | Plex | [tader/switchboard-plugin-plex](https://github.com/tader/switchboard-plugin-plex) | `plugins/plex` |
 | Shell command | [tader/switchboard-plugin-shell-command](https://github.com/tader/switchboard-plugin-shell-command) | `plugins/shell-command` |
 | Spotify | [tader/switchboard-plugin-spotify](https://github.com/tader/switchboard-plugin-spotify) | `plugins/spotify` |
-| Switchboard | [tader/switchboard-plugin-switchboard](https://github.com/tader/switchboard-plugin-switchboard) | `plugins/switchboard` |
 | Todoist | [tader/switchboard-plugin-todoist](https://github.com/tader/switchboard-plugin-todoist) | `plugins/todoist` |
+
+The former Switchboard connector plugin is retired. Use built-in **Peers**, then choose local sharing in **Connections → Sharing** on each instance.
