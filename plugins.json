@@ -111,7 +111,7 @@
       "description": "Jira and Confluence Cloud and Data Center, with shared Atlassian sign-in.",
       "repo": "tader/switchboard-plugin-atlassian",
       "path": "plugins/atlassian",
-      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-atlassian/main/plugins/atlassian/icon.svg"
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-atlassian/main/plugins/atlassian/jira.svg"
     },
     {
       "id": "microsoft",
