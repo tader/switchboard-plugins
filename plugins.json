@@ -2,25 +2,11 @@
   "schemaVersion": 1,
   "plugins": [
     {
-      "id": "atlassian",
-      "name": "Jira and Confluence",
-      "description": "Jira and Confluence Cloud and Data Center, with shared Atlassian sign-in.",
-      "repo": "tader/switchboard-plugin-atlassian",
-      "path": "plugins/atlassian"
-    },
-    {
-      "id": "bitbucket",
-      "name": "Bitbucket",
-      "description": "Bitbucket Cloud and Data Center repositories, pull requests and Cloud pipelines.",
-      "repo": "tader/switchboard-plugin-atlassian",
-      "path": "plugins/bitbucket"
-    },
-    {
-      "id": "apple-reminders",
-      "name": "Apple Reminders",
-      "description": "Local Apple Reminders on macOS. Install on the Mac running Switchboard or its Mac satellite.",
+      "id": "apple-calendar",
+      "name": "Apple Calendar",
+      "description": "Local Apple Calendar on macOS 14+. Requires the logged-in Mac session and Xcode Command Line Tools.",
       "repo": "tader/switchboard-plugin-macos",
-      "path": "plugins/apple-reminders"
+      "path": "plugins/apple-calendar"
     },
     {
       "id": "apple-mail",
@@ -30,11 +16,158 @@
       "path": "plugins/apple-mail"
     },
     {
-      "id": "apple-calendar",
-      "name": "Apple Calendar",
-      "description": "Local Apple Calendar on macOS 14+. Requires the logged-in Mac session and Xcode Command Line Tools.",
+      "id": "apple-reminders",
+      "name": "Apple Reminders",
+      "description": "Local Apple Reminders on macOS. Install on the Mac running Switchboard or its Mac satellite.",
       "repo": "tader/switchboard-plugin-macos",
-      "path": "plugins/apple-calendar"
+      "path": "plugins/apple-reminders"
+    },
+    {
+      "id": "bitbucket",
+      "name": "Bitbucket",
+      "description": "Bitbucket Cloud and Data Center repositories, pull requests and Cloud pipelines.",
+      "repo": "tader/switchboard-plugin-atlassian",
+      "path": "plugins/bitbucket"
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "description": "GitHub with a personal access token, browser sign-in or a device code.",
+      "repo": "tader/switchboard-plugin-github",
+      "path": "plugins/github"
+    },
+    {
+      "id": "gmail",
+      "name": "Gmail",
+      "description": "Read and send email from Gmail accounts.",
+      "repo": "tader/switchboard-plugin-gmail",
+      "path": "plugins/gmail"
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "description": "Google sign-in for Google APIs. Other plugins build services such as Gmail on top of it.",
+      "repo": "tader/switchboard-plugin-google",
+      "path": "plugins/google"
+    },
+    {
+      "id": "google-calendar",
+      "name": "Google Calendar",
+      "description": "Calendars and events.",
+      "repo": "tader/switchboard-plugin-google-calendar",
+      "path": "plugins/google-calendar"
+    },
+    {
+      "id": "google-docs",
+      "name": "Google Docs",
+      "description": "Read and edit Google Docs documents.",
+      "repo": "tader/switchboard-plugin-google-docs",
+      "path": "plugins/google-docs"
+    },
+    {
+      "id": "google-drive",
+      "name": "Google Drive",
+      "description": "Files and folders in Google Drive.",
+      "repo": "tader/switchboard-plugin-google-drive",
+      "path": "plugins/google-drive"
+    },
+    {
+      "id": "google-keep",
+      "name": "Google Keep",
+      "description": "Notes and lists in Google Keep, for Google Workspace, through a service account with domain-wide delegation.",
+      "repo": "tader/switchboard-plugin-google-keep",
+      "path": "plugins/google-keep"
+    },
+    {
+      "id": "google-sheets",
+      "name": "Google Sheets",
+      "description": "Read and write Google Sheets spreadsheets.",
+      "repo": "tader/switchboard-plugin-google-sheets",
+      "path": "plugins/google-sheets"
+    },
+    {
+      "id": "home-assistant",
+      "name": "Home Assistant",
+      "description": "Home Assistant instances, with browser sign-in or a long-lived access token.",
+      "repo": "tader/switchboard-plugin-home-assistant",
+      "path": "plugins/home-assistant"
+    },
+    {
+      "id": "atlassian",
+      "name": "Jira and Confluence",
+      "description": "Jira and Confluence Cloud and Data Center, with shared Atlassian sign-in.",
+      "repo": "tader/switchboard-plugin-atlassian",
+      "path": "plugins/atlassian"
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft",
+      "description": "Microsoft sign-in for Microsoft Graph (Microsoft 365, Outlook.com, OneDrive). Other plugins build services such as Outlook Mail on top of it.",
+      "repo": "tader/switchboard-plugin-microsoft",
+      "path": "plugins/microsoft"
+    },
+    {
+      "id": "microsoft-todo",
+      "name": "Microsoft To Do",
+      "description": "Task lists and tasks in Microsoft To Do.",
+      "repo": "tader/switchboard-plugin-microsoft-todo",
+      "path": "plugins/microsoft-todo"
+    },
+    {
+      "id": "onedrive",
+      "name": "OneDrive",
+      "description": "Files in OneDrive, for personal and work accounts.",
+      "repo": "tader/switchboard-plugin-onedrive",
+      "path": "plugins/onedrive"
+    },
+    {
+      "id": "outlook-calendar",
+      "name": "Outlook Calendar",
+      "description": "Calendars and events in Microsoft 365 and Outlook.com.",
+      "repo": "tader/switchboard-plugin-outlook-calendar",
+      "path": "plugins/outlook-calendar"
+    },
+    {
+      "id": "outlook-mail",
+      "name": "Outlook Mail",
+      "description": "Mail in Microsoft 365 and Outlook.com.",
+      "repo": "tader/switchboard-plugin-outlook-mail",
+      "path": "plugins/outlook-mail"
+    },
+    {
+      "id": "plex",
+      "name": "Plex",
+      "description": "Plex accounts and Plex Media Servers.",
+      "repo": "tader/switchboard-plugin-plex",
+      "path": "plugins/plex"
+    },
+    {
+      "id": "shell-command",
+      "name": "Shell command",
+      "description": "Run a fixed shell command through a connection on a satellite. Install on a satellite and enable Allow shell commands in its local settings.",
+      "repo": "tader/switchboard-plugin-shell-command",
+      "path": "plugins/shell-command"
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "description": "Playback, playlists and library on Spotify.",
+      "repo": "tader/switchboard-plugin-spotify",
+      "path": "plugins/spotify"
+    },
+    {
+      "id": "switchboard",
+      "name": "Switchboard",
+      "description": "Another Switchboard, to use the accounts connected there.",
+      "repo": "tader/switchboard-plugin-switchboard",
+      "path": "plugins/switchboard"
+    },
+    {
+      "id": "todoist",
+      "name": "Todoist",
+      "description": "Tasks and projects in Todoist.",
+      "repo": "tader/switchboard-plugin-todoist",
+      "path": "plugins/todoist"
     }
   ]
 }
