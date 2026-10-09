@@ -164,7 +164,7 @@
     {
       "id": "shell-command",
       "name": "Shell command",
-      "description": "Run a fixed shell command through a connection on a peer. Install on a peer and enable Allow shell commands in its local settings.",
+      "description": "Run a fixed shell command through a local connection on any Switchboard instance.",
       "repo": "tader/switchboard-plugin-shell-command",
       "path": "plugins/shell-command",
       "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-shell-command/main/plugins/shell-command/icon.svg"
