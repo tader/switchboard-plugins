@@ -14,6 +14,7 @@ for (const p of catalog.plugins) {
   assert(typeof p.name === 'string' && p.name.trim(), `Missing name: ${p.id}`);
   assert(typeof p.description === 'string', `Missing description: ${p.id}`);
   assert(typeof p.repo === 'string' && /^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(p.repo) && !p.repo.split('/').some(p => p === '.' || p === '..'), `Invalid repo: ${p.id}`);
+  if (p.icon !== undefined) { const icon = new URL(p.icon); assert(icon.protocol === 'https:' && icon.hostname === 'raw.githubusercontent.com' && !icon.username && !icon.password && !icon.port, `Invalid icon: ${p.id}`); }
   if (p.ref !== undefined) assert(typeof p.ref === 'string' && p.ref && !/[\x00-\x20\x7f]/.test(p.ref), `Invalid ref: ${p.id}`);
   if (p.path !== undefined) assert(typeof p.path === 'string' && p.path && p.path === p.path.trim() && !p.path.startsWith('/') && !p.path.endsWith('/') && !/[\\\x00-\x1f\x7f]/.test(p.path) && !p.path.split('/').some(p => p === '..' || p === '.'), `Invalid path: ${p.id}`);
 }

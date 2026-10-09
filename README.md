@@ -8,7 +8,7 @@ Switchboard fetches `plugins.json` when its Community browser opens or Refresh i
 
 Open a pull request updating `plugins.json`. Listings are reviewed before merging. Run `node validate.mjs` before submitting.
 
-Each listing must have a unique plugin `id` matching its `plugin.json`, a plain-text `name` and `description`, and a GitHub `repo` in `owner/repository` format. Set `path` to the independently installable plugin folder when a repository contains several plugins. Optional `ref` follows a branch, tag or commit; omit it for the default branch. Optional paths and refs must be omitted rather than set to empty strings.
+Each listing must have a unique plugin `id` matching its `plugin.json`, a plain-text `name` and `description`, and a GitHub `repo` in `owner/repository` format. Optional `icon` is an HTTPS raw.githubusercontent.com URL for the plugin icon. Set `path` to the independently installable plugin folder when a repository contains several plugins. Optional `ref` follows a branch, tag or commit; omit it for the default branch. Optional paths and refs must be omitted rather than set to empty strings.
 
 Include platform requirements and important setup prerequisites in the description. Keep executable code and dependency version requirements in the plugin repository. Switchboard reads requirements from the plugin manifest, not this directory.
 
@@ -44,20 +44,20 @@ Before upgrading an existing instance, install its used provider plugins and any
 | Apple Reminders | [tader/switchboard-plugin-macos](https://github.com/tader/switchboard-plugin-macos) | `plugins/apple-reminders` |
 | Bitbucket | [tader/switchboard-plugin-atlassian](https://github.com/tader/switchboard-plugin-atlassian) | `plugins/bitbucket` |
 | GitHub | [tader/switchboard-plugin-github](https://github.com/tader/switchboard-plugin-github) | `plugins/github` |
-| Gmail | [tader/switchboard-plugin-gmail](https://github.com/tader/switchboard-plugin-gmail) | `plugins/gmail` |
+| Gmail | [tader/switchboard-plugin-google](https://github.com/tader/switchboard-plugin-google) | `plugins/gmail` |
 | Google | [tader/switchboard-plugin-google](https://github.com/tader/switchboard-plugin-google) | `plugins/google` |
-| Google Calendar | [tader/switchboard-plugin-google-calendar](https://github.com/tader/switchboard-plugin-google-calendar) | `plugins/google-calendar` |
-| Google Docs | [tader/switchboard-plugin-google-docs](https://github.com/tader/switchboard-plugin-google-docs) | `plugins/google-docs` |
-| Google Drive | [tader/switchboard-plugin-google-drive](https://github.com/tader/switchboard-plugin-google-drive) | `plugins/google-drive` |
-| Google Keep | [tader/switchboard-plugin-google-keep](https://github.com/tader/switchboard-plugin-google-keep) | `plugins/google-keep` |
-| Google Sheets | [tader/switchboard-plugin-google-sheets](https://github.com/tader/switchboard-plugin-google-sheets) | `plugins/google-sheets` |
+| Google Calendar | [tader/switchboard-plugin-google](https://github.com/tader/switchboard-plugin-google) | `plugins/google-calendar` |
+| Google Docs | [tader/switchboard-plugin-google](https://github.com/tader/switchboard-plugin-google) | `plugins/google-docs` |
+| Google Drive | [tader/switchboard-plugin-google](https://github.com/tader/switchboard-plugin-google) | `plugins/google-drive` |
+| Google Keep | [tader/switchboard-plugin-google](https://github.com/tader/switchboard-plugin-google) | `plugins/google-keep` |
+| Google Sheets | [tader/switchboard-plugin-google](https://github.com/tader/switchboard-plugin-google) | `plugins/google-sheets` |
 | Home Assistant | [tader/switchboard-plugin-home-assistant](https://github.com/tader/switchboard-plugin-home-assistant) | `plugins/home-assistant` |
 | Jira and Confluence | [tader/switchboard-plugin-atlassian](https://github.com/tader/switchboard-plugin-atlassian) | `plugins/atlassian` |
 | Microsoft | [tader/switchboard-plugin-microsoft](https://github.com/tader/switchboard-plugin-microsoft) | `plugins/microsoft` |
-| Microsoft To Do | [tader/switchboard-plugin-microsoft-todo](https://github.com/tader/switchboard-plugin-microsoft-todo) | `plugins/microsoft-todo` |
-| OneDrive | [tader/switchboard-plugin-onedrive](https://github.com/tader/switchboard-plugin-onedrive) | `plugins/onedrive` |
-| Outlook Calendar | [tader/switchboard-plugin-outlook-calendar](https://github.com/tader/switchboard-plugin-outlook-calendar) | `plugins/outlook-calendar` |
-| Outlook Mail | [tader/switchboard-plugin-outlook-mail](https://github.com/tader/switchboard-plugin-outlook-mail) | `plugins/outlook-mail` |
+| Microsoft To Do | [tader/switchboard-plugin-microsoft](https://github.com/tader/switchboard-plugin-microsoft) | `plugins/microsoft-todo` |
+| OneDrive | [tader/switchboard-plugin-microsoft](https://github.com/tader/switchboard-plugin-microsoft) | `plugins/onedrive` |
+| Outlook Calendar | [tader/switchboard-plugin-microsoft](https://github.com/tader/switchboard-plugin-microsoft) | `plugins/outlook-calendar` |
+| Outlook Mail | [tader/switchboard-plugin-microsoft](https://github.com/tader/switchboard-plugin-microsoft) | `plugins/outlook-mail` |
 | Plex | [tader/switchboard-plugin-plex](https://github.com/tader/switchboard-plugin-plex) | `plugins/plex` |
 | Shell command | [tader/switchboard-plugin-shell-command](https://github.com/tader/switchboard-plugin-shell-command) | `plugins/shell-command` |
 | Spotify | [tader/switchboard-plugin-spotify](https://github.com/tader/switchboard-plugin-spotify) | `plugins/spotify` |

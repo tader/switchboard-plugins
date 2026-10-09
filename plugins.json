@@ -6,168 +6,192 @@
       "name": "Apple Calendar",
       "description": "Local Apple Calendar on macOS 14+. Requires the logged-in Mac session and Xcode Command Line Tools.",
       "repo": "tader/switchboard-plugin-macos",
-      "path": "plugins/apple-calendar"
+      "path": "plugins/apple-calendar",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-macos/main/plugins/apple-calendar/icon.svg"
     },
     {
       "id": "apple-mail",
       "name": "Apple Mail",
       "description": "Local Apple Mail on macOS 14+. Requires the logged-in Mac session and Xcode Command Line Tools.",
       "repo": "tader/switchboard-plugin-macos",
-      "path": "plugins/apple-mail"
+      "path": "plugins/apple-mail",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-macos/main/plugins/apple-mail/icon.svg"
     },
     {
       "id": "apple-reminders",
       "name": "Apple Reminders",
       "description": "Local Apple Reminders on macOS. Install on the Mac running Switchboard or its Mac satellite.",
       "repo": "tader/switchboard-plugin-macos",
-      "path": "plugins/apple-reminders"
+      "path": "plugins/apple-reminders",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-macos/main/plugins/apple-reminders/icon.svg"
     },
     {
       "id": "bitbucket",
       "name": "Bitbucket",
       "description": "Bitbucket Cloud and Data Center repositories, pull requests and Cloud pipelines.",
       "repo": "tader/switchboard-plugin-atlassian",
-      "path": "plugins/bitbucket"
+      "path": "plugins/bitbucket",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-atlassian/main/plugins/bitbucket/icon.svg"
     },
     {
       "id": "github",
       "name": "GitHub",
       "description": "GitHub with a personal access token, browser sign-in or a device code.",
       "repo": "tader/switchboard-plugin-github",
-      "path": "plugins/github"
+      "path": "plugins/github",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-github/main/plugins/github/icon.svg"
     },
     {
       "id": "gmail",
       "name": "Gmail",
       "description": "Read and send email from Gmail accounts.",
-      "repo": "tader/switchboard-plugin-gmail",
-      "path": "plugins/gmail"
+      "repo": "tader/switchboard-plugin-google",
+      "path": "plugins/gmail",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-google/main/plugins/gmail/icon.svg"
     },
     {
       "id": "google",
       "name": "Google",
       "description": "Google sign-in for Google APIs. Other plugins build services such as Gmail on top of it.",
       "repo": "tader/switchboard-plugin-google",
-      "path": "plugins/google"
+      "path": "plugins/google",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-google/main/plugins/google/icon.svg"
     },
     {
       "id": "google-calendar",
       "name": "Google Calendar",
       "description": "Calendars and events.",
-      "repo": "tader/switchboard-plugin-google-calendar",
-      "path": "plugins/google-calendar"
+      "repo": "tader/switchboard-plugin-google",
+      "path": "plugins/google-calendar",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-google/main/plugins/google-calendar/icon.svg"
     },
     {
       "id": "google-docs",
       "name": "Google Docs",
       "description": "Read and edit Google Docs documents.",
-      "repo": "tader/switchboard-plugin-google-docs",
-      "path": "plugins/google-docs"
+      "repo": "tader/switchboard-plugin-google",
+      "path": "plugins/google-docs",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-google/main/plugins/google-docs/icon.svg"
     },
     {
       "id": "google-drive",
       "name": "Google Drive",
       "description": "Files and folders in Google Drive.",
-      "repo": "tader/switchboard-plugin-google-drive",
-      "path": "plugins/google-drive"
+      "repo": "tader/switchboard-plugin-google",
+      "path": "plugins/google-drive",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-google/main/plugins/google-drive/icon.svg"
     },
     {
       "id": "google-keep",
       "name": "Google Keep",
       "description": "Notes and lists in Google Keep, for Google Workspace, through a service account with domain-wide delegation.",
-      "repo": "tader/switchboard-plugin-google-keep",
-      "path": "plugins/google-keep"
+      "repo": "tader/switchboard-plugin-google",
+      "path": "plugins/google-keep",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-google/main/plugins/google-keep/icon.svg"
     },
     {
       "id": "google-sheets",
       "name": "Google Sheets",
       "description": "Read and write Google Sheets spreadsheets.",
-      "repo": "tader/switchboard-plugin-google-sheets",
-      "path": "plugins/google-sheets"
+      "repo": "tader/switchboard-plugin-google",
+      "path": "plugins/google-sheets",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-google/main/plugins/google-sheets/icon.svg"
     },
     {
       "id": "home-assistant",
       "name": "Home Assistant",
       "description": "Home Assistant instances, with browser sign-in or a long-lived access token.",
       "repo": "tader/switchboard-plugin-home-assistant",
-      "path": "plugins/home-assistant"
+      "path": "plugins/home-assistant",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-home-assistant/main/plugins/home-assistant/icon.svg"
     },
     {
       "id": "atlassian",
       "name": "Jira and Confluence",
       "description": "Jira and Confluence Cloud and Data Center, with shared Atlassian sign-in.",
       "repo": "tader/switchboard-plugin-atlassian",
-      "path": "plugins/atlassian"
+      "path": "plugins/atlassian",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-atlassian/main/plugins/atlassian/icon.svg"
     },
     {
       "id": "microsoft",
       "name": "Microsoft",
       "description": "Microsoft sign-in for Microsoft Graph (Microsoft 365, Outlook.com, OneDrive). Other plugins build services such as Outlook Mail on top of it.",
       "repo": "tader/switchboard-plugin-microsoft",
-      "path": "plugins/microsoft"
+      "path": "plugins/microsoft",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-microsoft/main/plugins/microsoft/icon.svg"
     },
     {
       "id": "microsoft-todo",
       "name": "Microsoft To Do",
       "description": "Task lists and tasks in Microsoft To Do.",
-      "repo": "tader/switchboard-plugin-microsoft-todo",
-      "path": "plugins/microsoft-todo"
+      "repo": "tader/switchboard-plugin-microsoft",
+      "path": "plugins/microsoft-todo",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-microsoft/main/plugins/microsoft-todo/icon.svg"
     },
     {
       "id": "onedrive",
       "name": "OneDrive",
       "description": "Files in OneDrive, for personal and work accounts.",
-      "repo": "tader/switchboard-plugin-onedrive",
-      "path": "plugins/onedrive"
+      "repo": "tader/switchboard-plugin-microsoft",
+      "path": "plugins/onedrive",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-microsoft/main/plugins/onedrive/icon.svg"
     },
     {
       "id": "outlook-calendar",
       "name": "Outlook Calendar",
       "description": "Calendars and events in Microsoft 365 and Outlook.com.",
-      "repo": "tader/switchboard-plugin-outlook-calendar",
-      "path": "plugins/outlook-calendar"
+      "repo": "tader/switchboard-plugin-microsoft",
+      "path": "plugins/outlook-calendar",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-microsoft/main/plugins/outlook-calendar/icon.svg"
     },
     {
       "id": "outlook-mail",
       "name": "Outlook Mail",
       "description": "Mail in Microsoft 365 and Outlook.com.",
-      "repo": "tader/switchboard-plugin-outlook-mail",
-      "path": "plugins/outlook-mail"
+      "repo": "tader/switchboard-plugin-microsoft",
+      "path": "plugins/outlook-mail",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-microsoft/main/plugins/outlook-mail/icon.svg"
     },
     {
       "id": "plex",
       "name": "Plex",
       "description": "Plex accounts and Plex Media Servers.",
       "repo": "tader/switchboard-plugin-plex",
-      "path": "plugins/plex"
+      "path": "plugins/plex",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-plex/main/plugins/plex/icon.svg"
     },
     {
       "id": "shell-command",
       "name": "Shell command",
       "description": "Run a fixed shell command through a connection on a satellite. Install on a satellite and enable Allow shell commands in its local settings.",
       "repo": "tader/switchboard-plugin-shell-command",
-      "path": "plugins/shell-command"
+      "path": "plugins/shell-command",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-shell-command/main/plugins/shell-command/icon.svg"
     },
     {
       "id": "spotify",
       "name": "Spotify",
       "description": "Playback, playlists and library on Spotify.",
       "repo": "tader/switchboard-plugin-spotify",
-      "path": "plugins/spotify"
+      "path": "plugins/spotify",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-spotify/main/plugins/spotify/icon.svg"
     },
     {
       "id": "switchboard",
       "name": "Switchboard",
       "description": "Another Switchboard, to use the accounts connected there.",
       "repo": "tader/switchboard-plugin-switchboard",
-      "path": "plugins/switchboard"
+      "path": "plugins/switchboard",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-switchboard/main/plugins/switchboard/icon.svg"
     },
     {
       "id": "todoist",
       "name": "Todoist",
       "description": "Tasks and projects in Todoist.",
       "repo": "tader/switchboard-plugin-todoist",
-      "path": "plugins/todoist"
+      "path": "plugins/todoist",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-todoist/main/plugins/todoist/icon.svg"
     }
   ]
 }
