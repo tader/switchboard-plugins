@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "plugins": [
+    {
+      "id": "atlassian",
+      "name": "Jira and Confluence",
+      "description": "Jira and Confluence Cloud and Data Center, with shared Atlassian sign-in.",
+      "repo": "tader/switchboard-plugin-atlassian",
+      "path": "plugins/atlassian"
+    },
+    {
+      "id": "bitbucket",
+      "name": "Bitbucket",
+      "description": "Bitbucket Cloud and Data Center repositories, pull requests and Cloud pipelines.",
+      "repo": "tader/switchboard-plugin-atlassian",
+      "path": "plugins/bitbucket"
+    },
+    {
+      "id": "apple-reminders",
+      "name": "Apple Reminders",
+      "description": "Local Apple Reminders on macOS. Install on the Mac running Switchboard or its Mac satellite.",
+      "repo": "tader/switchboard-plugin-macos",
+      "path": "plugins/apple-reminders"
+    },
+    {
+      "id": "apple-mail",
+      "name": "Apple Mail",
+      "description": "Local Apple Mail on macOS 14+. Requires the logged-in Mac session and Xcode Command Line Tools.",
+      "repo": "tader/switchboard-plugin-macos",
+      "path": "plugins/apple-mail"
+    },
+    {
+      "id": "apple-calendar",
+      "name": "Apple Calendar",
+      "description": "Local Apple Calendar on macOS 14+. Requires the logged-in Mac session and Xcode Command Line Tools.",
+      "repo": "tader/switchboard-plugin-macos",
+      "path": "plugins/apple-calendar"
+    }
+  ]
+}
