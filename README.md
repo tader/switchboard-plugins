@@ -30,11 +30,3 @@ Include platform requirements and important setup prerequisites in the descripti
 ```
 
 Plugins run inside Switchboard with access to stored credentials. A catalog listing is not a security audit or a guarantee. Install plugins you trust.
-
-## Microsoft authentication and Teams
-
-Install **Microsoft Authentication** (`plugins/microsoft-authentication`) on the computer used for sign-in, with Edge or Chrome available. Add a Microsoft Authentication connection and complete its Teams web sign-in. Other Microsoft connections can select that same authentication source; the browser is used only for authentication.
-
-Use a Switchboard version with authentication-source support. For a remote server, share the authentication connection through Peers and separately enable **Share authentication** for that peer. Update the shared **Microsoft** helper before adding Word, PowerPoint or Org Explorer to an existing installation. Microsoft still applies account permissions, token lifetimes and company sign-in policies.
-
-The Teams listing points to `tader/switchboard-plugin-microsoft`, folder `plugins/teams`, and retains the `teams-web` plugin ID. It replaces the standalone Teams repository as the catalog source while preserving the connection and plugin-data identity during migration.
