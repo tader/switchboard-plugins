@@ -31,36 +31,10 @@ Include platform requirements and important setup prerequisites in the descripti
 
 Plugins run inside Switchboard with access to stored credentials. A catalog listing is not a security audit or a guarantee. Install plugins you trust.
 
-## Formerly bundled integrations
+## Microsoft authentication and Teams
 
-Switchboard bundles MCP, API Keys and OAuth. All other integrations below are installed from Community and maintained separately. Google and Microsoft apps declare their shared provider dependency; installing an app resolves it through this live catalog.
+Install **Microsoft Authentication** (`plugins/microsoft-authentication`) on the computer used for sign-in, with Edge or Chrome available. Add a Microsoft Authentication connection and complete its Teams web sign-in. Other Microsoft connections can select that same authentication source; the browser is used only for authentication.
 
-Before upgrading an existing instance, install its used provider plugins and any peer plugins. Install the shared Google or Microsoft plugin explicitly too when migrating their apps: an older Switchboard can reuse its compatible bundled helper instead of downloading it. IDs, saved credentials, authentication methods, settings and plugin data paths are preserved. Install GitHub first if you need saved GitHub connections for private repository access; public installation works without a connection.
+Use a Switchboard version with authentication-source support. For a remote server, share the authentication connection through Peers and separately enable **Share authentication** for that peer. Update the shared **Microsoft** helper before adding Word, PowerPoint or Org Explorer to an existing installation. Microsoft still applies account permissions, token lifetimes and company sign-in policies.
 
-| Plugin | Repository | Plugin path |
-| --- | --- | --- |
-| Apple Calendar | [tader/switchboard-plugin-macos](https://github.com/tader/switchboard-plugin-macos) | `plugins/apple-calendar` |
-| Apple Mail | [tader/switchboard-plugin-macos](https://github.com/tader/switchboard-plugin-macos) | `plugins/apple-mail` |
-| Apple Reminders | [tader/switchboard-plugin-macos](https://github.com/tader/switchboard-plugin-macos) | `plugins/apple-reminders` |
-| Bitbucket | [tader/switchboard-plugin-atlassian](https://github.com/tader/switchboard-plugin-atlassian) | `plugins/bitbucket` |
-| GitHub | [tader/switchboard-plugin-github](https://github.com/tader/switchboard-plugin-github) | `plugins/github` |
-| Gmail | [tader/switchboard-plugin-google](https://github.com/tader/switchboard-plugin-google) | `plugins/gmail` |
-| Google | [tader/switchboard-plugin-google](https://github.com/tader/switchboard-plugin-google) | `plugins/google` |
-| Google Calendar | [tader/switchboard-plugin-google](https://github.com/tader/switchboard-plugin-google) | `plugins/google-calendar` |
-| Google Docs | [tader/switchboard-plugin-google](https://github.com/tader/switchboard-plugin-google) | `plugins/google-docs` |
-| Google Drive | [tader/switchboard-plugin-google](https://github.com/tader/switchboard-plugin-google) | `plugins/google-drive` |
-| Google Keep | [tader/switchboard-plugin-google](https://github.com/tader/switchboard-plugin-google) | `plugins/google-keep` |
-| Google Sheets | [tader/switchboard-plugin-google](https://github.com/tader/switchboard-plugin-google) | `plugins/google-sheets` |
-| Home Assistant | [tader/switchboard-plugin-home-assistant](https://github.com/tader/switchboard-plugin-home-assistant) | `plugins/home-assistant` |
-| Jira and Confluence | [tader/switchboard-plugin-atlassian](https://github.com/tader/switchboard-plugin-atlassian) | `plugins/atlassian` |
-| Microsoft | [tader/switchboard-plugin-microsoft](https://github.com/tader/switchboard-plugin-microsoft) | `plugins/microsoft` |
-| Microsoft To Do | [tader/switchboard-plugin-microsoft](https://github.com/tader/switchboard-plugin-microsoft) | `plugins/microsoft-todo` |
-| OneDrive | [tader/switchboard-plugin-microsoft](https://github.com/tader/switchboard-plugin-microsoft) | `plugins/onedrive` |
-| Outlook Calendar | [tader/switchboard-plugin-microsoft](https://github.com/tader/switchboard-plugin-microsoft) | `plugins/outlook-calendar` |
-| Outlook Mail | [tader/switchboard-plugin-microsoft](https://github.com/tader/switchboard-plugin-microsoft) | `plugins/outlook-mail` |
-| Plex | [tader/switchboard-plugin-plex](https://github.com/tader/switchboard-plugin-plex) | `plugins/plex` |
-| Shell command | [tader/switchboard-plugin-shell-command](https://github.com/tader/switchboard-plugin-shell-command) | `plugins/shell-command` |
-| Spotify | [tader/switchboard-plugin-spotify](https://github.com/tader/switchboard-plugin-spotify) | `plugins/spotify` |
-| Todoist | [tader/switchboard-plugin-todoist](https://github.com/tader/switchboard-plugin-todoist) | `plugins/todoist` |
-
-The former Switchboard connector plugin is retired. Use built-in **Peers**, then choose local sharing in **Connections → Sharing** on each instance.
+The Teams listing points to `tader/switchboard-plugin-microsoft`, folder `plugins/teams`, and retains the `teams-web` plugin ID. It replaces the standalone Teams repository as the catalog source while preserving the connection and plugin-data identity during migration.

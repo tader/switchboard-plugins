@@ -34,6 +34,14 @@
       "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-atlassian/main/plugins/bitbucket/icon.svg"
     },
     {
+      "id": "excel",
+      "name": "Excel",
+      "description": "Read and edit Excel workbooks in OneDrive for Business and SharePoint, using shared Microsoft Authentication or an app registration.",
+      "repo": "tader/switchboard-plugin-microsoft",
+      "path": "plugins/excel",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-microsoft/main/plugins/excel/icon.svg"
+    },
+    {
       "id": "github",
       "name": "GitHub",
       "description": "GitHub with a personal access token, browser sign-in or a device code.",
@@ -116,10 +124,18 @@
     {
       "id": "microsoft",
       "name": "Microsoft",
-      "description": "Microsoft sign-in for Microsoft Graph (Microsoft 365, Outlook.com, OneDrive). Other plugins build services such as Outlook Mail on top of it.",
+      "description": "Shared helper for Microsoft Graph and Microsoft product plugins. For cached browser sign-in, install Microsoft Authentication on the sign-in computer.",
       "repo": "tader/switchboard-plugin-microsoft",
       "path": "plugins/microsoft",
       "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-microsoft/main/plugins/microsoft/icon.svg"
+    },
+    {
+      "id": "microsoft-authentication",
+      "name": "Microsoft Authentication",
+      "description": "Cached Microsoft web sign-in for local services and explicitly trusted peers. Install on a computer with Edge or Chrome; requires Switchboard authentication-source support.",
+      "repo": "tader/switchboard-plugin-microsoft",
+      "path": "plugins/microsoft-authentication",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-microsoft/main/plugins/microsoft-authentication/icon.svg"
     },
     {
       "id": "microsoft-todo",
@@ -136,6 +152,14 @@
       "repo": "tader/switchboard-plugin-microsoft",
       "path": "plugins/onedrive",
       "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-microsoft/main/plugins/onedrive/icon.svg"
+    },
+    {
+      "id": "org-explorer",
+      "name": "Org Explorer",
+      "description": "Read-only people search, profiles, managers, peers and reporting hierarchies. Requires Microsoft Authentication and an updated Microsoft helper.",
+      "repo": "tader/switchboard-plugin-microsoft",
+      "path": "plugins/org-explorer",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-microsoft/main/plugins/org-explorer/icon.svg"
     },
     {
       "id": "outlook-calendar",
@@ -162,6 +186,14 @@
       "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-plex/main/plugins/plex/icon.svg"
     },
     {
+      "id": "powerpoint",
+      "name": "PowerPoint",
+      "description": "Read and edit PowerPoint slides, tables and speaker notes in OneDrive and SharePoint. Requires Microsoft Authentication and an updated Microsoft helper.",
+      "repo": "tader/switchboard-plugin-microsoft",
+      "path": "plugins/powerpoint",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-microsoft/main/plugins/powerpoint/icon.svg"
+    },
+    {
       "id": "shell-command",
       "name": "Shell command",
       "description": "Run a fixed shell command through a local connection on any Switchboard instance.",
@@ -178,12 +210,28 @@
       "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-spotify/main/plugins/spotify/icon.svg"
     },
     {
+      "id": "teams-web",
+      "name": "Teams",
+      "description": "Teams chats, channels, search and triage through APIs. Supports shared Microsoft Authentication, local Edge or Chrome sign-in, or imported tokens.",
+      "repo": "tader/switchboard-plugin-microsoft",
+      "path": "plugins/teams",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-microsoft/main/plugins/teams/icon.svg"
+    },
+    {
       "id": "todoist",
       "name": "Todoist",
       "description": "Tasks and projects in Todoist.",
       "repo": "tader/switchboard-plugin-todoist",
       "path": "plugins/todoist",
       "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-todoist/main/plugins/todoist/icon.svg"
+    },
+    {
+      "id": "word",
+      "name": "Word",
+      "description": "Read and edit Word paragraphs, headings and tables in OneDrive and SharePoint. Requires Microsoft Authentication and an updated Microsoft helper.",
+      "repo": "tader/switchboard-plugin-microsoft",
+      "path": "plugins/word",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-microsoft/main/plugins/word/icon.svg"
     }
   ]
 }
