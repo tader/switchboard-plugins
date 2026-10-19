@@ -226,6 +226,14 @@
       "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-todoist/main/plugins/todoist/icon.svg"
     },
     {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "description": "WhatsApp linked-device chats, synced message history, sending, quoted replies, reactions and poll voting.",
+      "repo": "tader/switchboard-plugin-whatsapp",
+      "path": "plugins/whatsapp",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-whatsapp/main/plugins/whatsapp/icon.svg"
+    },
+    {
       "id": "word",
       "name": "Word",
       "description": "Read and edit Word paragraphs, headings and tables in OneDrive and SharePoint. Requires Microsoft Authentication and an updated Microsoft helper.",
