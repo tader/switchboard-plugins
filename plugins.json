@@ -204,10 +204,18 @@
     {
       "id": "slack",
       "name": "Slack",
-      "description": "Slack conversations, search, messaging and triage through official user OAuth. Requires a Slack app client ID and secret; workspace approval may be needed.",
+      "description": "Slack conversations, search, messaging and triage through shared Slack Authentication or official user OAuth.",
       "repo": "tader/switchboard-plugin-slack",
       "path": "plugins/slack",
       "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-slack/main/plugins/slack/icon.svg"
+    },
+    {
+      "id": "slack-authentication",
+      "name": "Slack Authentication",
+      "description": "Cached Slack browser or macOS desktop authentication for this device and explicitly authorized peers.",
+      "repo": "tader/switchboard-plugin-slack",
+      "path": "plugins/slack-authentication",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-slack/main/plugins/slack-authentication/icon.svg"
     },
     {
       "id": "spotify",
