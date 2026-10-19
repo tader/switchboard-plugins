@@ -202,6 +202,14 @@
       "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-shell-command/main/plugins/shell-command/icon.svg"
     },
     {
+      "id": "slack",
+      "name": "Slack",
+      "description": "Slack conversations, search, messaging and triage through official user OAuth. Requires a Slack app client ID and secret; workspace approval may be needed.",
+      "repo": "tader/switchboard-plugin-slack",
+      "path": "plugins/slack",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-slack/main/plugins/slack/icon.svg"
+    },
+    {
       "id": "spotify",
       "name": "Spotify",
       "description": "Playback, playlists and library on Spotify.",
