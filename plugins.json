@@ -202,6 +202,14 @@
       "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-shell-command/main/plugins/shell-command/icon.svg"
     },
     {
+      "id": "signal",
+      "name": "Signal",
+      "description": "Signal linked-device chats, messages, replies, reactions and poll votes. macOS or glibc Linux (x64/ARM64); requires Switchboard 0.8+.",
+      "repo": "tader/switchboard-plugin-signal",
+      "path": "plugins/signal",
+      "icon": "https://raw.githubusercontent.com/tader/switchboard-plugin-signal/main/plugins/signal/icon.svg"
+    },
+    {
       "id": "slack",
       "name": "Slack",
       "description": "Slack conversations, search, messaging and triage through shared Slack Authentication or official user OAuth.",
